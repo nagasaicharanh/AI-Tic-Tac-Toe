@@ -1,0 +1,28 @@
+.status-display {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 20px 0;
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.status-display p {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  .status-display {
+    padding: 15px;
+    min-height: 45px;
+  }
+
+  .status-display p {
+    font-size: 1rem;
+  }
+}
