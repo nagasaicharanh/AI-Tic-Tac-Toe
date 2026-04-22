@@ -4,10 +4,12 @@ This file stores key technical decisions, architectural patterns, and project-sp
 
 ## Project Overview
 - **Stack:** React 19, Vite, Vanilla CSS.
+- **Theme:** THM Branding (Green: #84BD00, Dark Gray: #4A5C66).
 - **Core Logic:** Separated into `src/utils/gameLogic.js` and `src/utils/ai.js` (Minimax algorithm).
 - **UI Components:** Modular components in `src/components/` with corresponding styles in `src/styles/`.
 
 ## Key Architectural Decisions
+- **Theming:** Centralized THM colors using CSS variables in `index.css`.
 - **Separation of Concerns:** Game state is managed in `Game.jsx`, while pure logic resides in `utils/`.
 - **Styling:** Preference for Vanilla CSS over CSS frameworks like Tailwind.
 
