@@ -1,5 +1,5 @@
 .status-display {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, var(--thm-dark-gray) 0%, var(--thm-green) 100%);
   color: white;
   padding: 20px;
   border-radius: 8px;
