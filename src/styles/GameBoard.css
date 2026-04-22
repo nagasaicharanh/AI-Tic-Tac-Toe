@@ -12,18 +12,19 @@
   aspect-ratio: 1 / 1;
   font-size: 2.5rem;
   font-weight: bold;
-  border: 2px solid #667eea;
+  border: 2px solid var(--thm-light-gray);
   border-radius: 8px;
   background: white;
   cursor: pointer;
   transition: all 0.3s ease;
-  color: #667eea;
+  color: var(--thm-dark-gray);
 }
 
 .cell:hover:not(.disabled):not([disabled]) {
-  background: #f0f0ff;
+  background: #f8fcf0;
   transform: scale(1.05);
-  box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 5px 15px rgba(132, 189, 0, 0.2);
+  border-color: var(--thm-green);
 }
 
 .cell:active:not(.disabled):not([disabled]) {
@@ -31,12 +32,12 @@
 }
 
 .cell.player-X {
-  color: #667eea;
+  color: var(--thm-green);
   font-weight: bold;
 }
 
 .cell.player-O {
-  color: #764ba2;
+  color: var(--thm-dark-gray);
   font-weight: bold;
 }
 
